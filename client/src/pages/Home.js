@@ -9,7 +9,6 @@ const Home = () => {
   const { loading, data } = useQuery(QUERY_THOUGHTS);
 
   const thoughts = data?.thoughts || [];
-  console.table(thoughts);
 
   return (
     <main>
